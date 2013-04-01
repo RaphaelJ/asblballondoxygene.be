@@ -1,0 +1,126 @@
+body {
+    background-image: url("../img/texture.png");
+    font: 14px Arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#content {
+    width: 920px;
+    margin: 0 auto;
+}
+
+header {
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(81, 96, 125, 0.3);
+}
+
+header h1, header h1 a {
+    display: inline;
+    margin: 0 30px 0 15px;
+
+    color: #5C6D8A;
+    font-family: 'Loved by the King', cursive;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
+}
+
+header h1 a:hover {
+    text-decoration: none;
+}
+
+header nav, header nav ul, header nav ul li {
+    display: inline;
+}
+
+header nav ul {
+    display: inline;
+}
+
+header nav ul li {
+    margin-right: 25px;
+
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+header nav ul li a {
+    color: #5C6D8A;
+    text-shadow: 0 1px 0 rgba(255,255,255, 0.7);
+
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+}
+
+header nav ul li a:hover, header nav ul li a.active {
+    color: #892525;
+}
+
+section {
+    margin: 15px 0;
+}
+
+section a {
+    color: black;
+    font-style: italic;
+}
+
+section p, section ul {
+    color: rgba(0, 0, 0, 0.7);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+}
+
+section h2 {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+section .photo {
+    float: left;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid rgba(81, 96, 125, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+section .photo.right {
+    float: right;
+}
+
+section img.photo, section .photo img {
+    display: block;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+section a.photo {
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+section a.photo:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    clear: both;
+    padding-top: 5px;
+    border-top: 1px solid rgba(81, 96, 125, 0.3);
+
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+footer a {
+    color: rgba(0, 0, 0, 0.7);
+}
+
