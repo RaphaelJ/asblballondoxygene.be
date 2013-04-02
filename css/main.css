@@ -115,6 +115,15 @@ section a.photo:hover {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
+section .photos {
+    text-align: center;
+}
+
+section .photos .photo {
+    float: none;
+    display: inline-block;
+}
+
 footer {
     clear: both;
     padding-top: 5px;
