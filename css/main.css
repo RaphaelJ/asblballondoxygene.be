@@ -27,7 +27,7 @@ header img {
 
 header h1, header h1 a {
     display: inline;
-    margin: 0 30px 0 15px;
+    margin: 0 0 0 15px;
 
     color: #5C6D8A;
     font-family: 'Loved by the King', cursive;
@@ -47,7 +47,7 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-right: 25px;
+    margin-right: 20px;
 
     font-size: 1.1em;
     font-weight: 700;
