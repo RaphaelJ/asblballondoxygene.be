@@ -57,13 +57,23 @@
 
 <h3>Prix des séances
 
-<ul>
-    <li>12 euros par enfant pour 1 heure dans un groupe de 3 à 4 enfants ;
-
-    <li>10 euros pour 1 heure dans un groupe de 5 enfants ;
-
-    <li>12 euros pour 30 min dans un groupe de 2 enfants, en fonction des
-    groupes.
+<table .table>
+    <tr>
+        <td>
+            Enfant pour 1 heure dans un groupe de 3 à 4 enfants.
+        <th>
+            12€
+    <tr>
+        <td>
+            Enfant pour 1 heure dans un groupe de 5 enfants.
+        <th>
+            10€
+    <tr>
+        <td>
+            Enfant pour 30 minutes dans un groupe de 2 enfants, en fonction des
+            groupes.
+        <th>
+            12€
 
 <h3>Concrètement
 
