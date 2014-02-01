@@ -1,0 +1,17 @@
+<h2>
+    #{albumName album}
+    <small>Photos
+
+<div .container>
+    $forall (i, (Entity picId pic)) <- pics'
+        <div .col-md-3>
+            <div .thumbnail>
+                <a target="_BLANK" href=@{pictureRoute picId}>
+                    <img src=@{miniatureRoute picId} alt="Image de l'album" />
+
+                $maybe desc <- pictureDescription pic
+                    <div .caption .small>
+                        #{desc}
+
+        $if i == 4
+            <div .clearfix>

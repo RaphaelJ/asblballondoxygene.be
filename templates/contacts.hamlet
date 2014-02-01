@@ -1,0 +1,91 @@
+<h2>Contacts et status
+
+<div .container>
+    <div .col-md-7>
+        <h3>Coordonnées générales
+
+        <address>
+            <strong>ASBL Ballon d'Oxygène
+            <br>
+            Avenue des Chèvrefeuilles 95, 4121 Neupré<br>
+            0477/04.78.46<br>
+            <a href="mailto:asblballondoxygene@gmail.com">
+                asblballondoxygene@gmail.com
+            <br>
+            N° d'entreprise : 0502.298.068.
+
+        <a .btn .btn-primary href=@{StaticR files_statut_pdf}>
+            <span .glyphicon .glyphicon-pencil>
+            Statuts de l'ASBL
+
+        <h3>Accès
+
+        <div.container>
+            <div .col-md-3>
+                <a target="_BLANK" href="https://www.google.be/maps/preview/place/Route%20du%20Condroz,%20211b%204120%20Neupr%C3%A9/">
+                    <img src="http://maps.google.com/maps/api/staticmap?size=240x240&maptype=roadmap&markers=size:mid|color:red|50.540631,5.4568&sensor=false&zoom=13"
+                         .img-thumbnail alt="Plan">
+
+                <address>
+                    <strong>Espace snoezelen et jeux
+                    <br>
+                    Route du Condroz, 211b, 4120 Neupré
+
+            <div .col-md-3>
+                <a target="_BLANK" href="https://www.google.be/maps/preview/place/Rue%20du%20Vieux%20Frêne,%2021,%204031%20Angleur/">
+                    <img src="http://maps.google.com/maps/api/staticmap?size=240x240&maptype=roadmap&markers=size:mid|color:red|50.567128,5.55496&sensor=false&zoom=13"
+                         .img-thumbnail alt="Plan">
+
+                <address>
+                    <strong>Cercle équestre l'Eperon
+                    <br>
+                    Rue du Vieux Frêne, 21, 4031 Angleur
+
+    <div .col-md-5>
+        <h3>
+            Directrice et éducatrice de terrain
+
+        <address>
+            Florence Wouters<br>
+            0477/04.78.46<br>
+            <a href="mailto:asblballondoxygene@gmail.com">
+                asblballondoxygene@gmail.com
+
+        <h3>
+            Membres du C.A.
+
+        <dl .dl-horizontal>
+            <dt>Président
+            <dd>
+                <address>
+                    William Heynen<br>
+                    <a href="mailto:wheynen@fdwal.be">
+                        wheynen@fdwal.be
+
+        <dl .dl-horizontal>
+            <dt>Vice-président
+            <dd>
+                <address>
+                    Michel Debacker<br>
+                    <a href="mailto:mvf.debacker@gmail.com">
+                        mvf.debacker@gmail.com
+
+        <dl .dl-horizontal>
+            <dt>Trésorier
+            <dd>
+                <address>
+                    Jean-Marc Wouters<br>
+                    <a href="mailto:jean.marc.wouters@gmail.com">
+                        jean.marc.wouters@gmail.com
+
+        <dl .dl-horizontal>
+            <dt>
+                Secrétaire<br>
+                Administration
+            <dd>
+                <address>
+                    Christine Wouters<br>
+                    <a href="mailto:c.bourdon.wouters@gmail.com">
+                        c.bourdon.wouters@gmail.com
+
+                

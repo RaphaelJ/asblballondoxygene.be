@@ -1,0 +1,29 @@
+/static                                     StaticR Static getStatic
+
+/robots.txt                                 RobotsR                 GET
+
+/                                           HomeR                   GET
+/services                                   ServicesR               GET
+/services/equitationadapt                   EquitationAdaptR        GET
+/services/stagesmultiacts                   StagesMultiActsR        GET
+/services/seancesludiques                   SeancesLudiquesR        GET
+/services/snoezelen                         SnoezelenR              GET
+/services/accompagnementperso               AccompagnementPersoR    GET
+
+/equipe                                     EquipeR                 GET
+
+/finances                                   FinancesR               GET
+
+/albums/#AlbumId                            AlbumR                  GET
+
+/contacts                                   ContactsR               GET
+
+/liens                                      LiensR                  GET
+
+/admin                                      AdminLoginR             GET POST
+
+/admin/albums                               AdminAlbumsR            GET POST
+/admin/albums/#AlbumId                      AdminAlbumR             GET POST
+/admin/albums/#AlbumId/Remove               AdminAlbumRemoveR       GET
+
+/admin/pictures/#PictureId/remove           AdminPictureRemoveR     GET

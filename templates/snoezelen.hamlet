@@ -1,0 +1,81 @@
+<a .pull-right href=@{StaticR photos_jeux_1_jpg} style="margin: 10px">
+    <img .img-thumbnail alt="Jeux" src=@{StaticR photos_jeux_1_mini_jpg}>
+
+<h2>Espace snoezelen
+
+<p>
+    L'équipe de l'ASBL Ballon d'Oxygène a aménagé un nouveau lieu d'accueil
+    comprenant un espace
+    <abbr title="Thérapie pour personnes atteinte d'autisme ou d'autres troubles du développement">
+        snoezelen.
+    Celui-ci est adapté afin de pouvoir accueillir des personnes atteintes de
+    tous types de difficultés dans un cadre sollicitant et sécurisé.
+
+<p>
+    Cet espace est situé à <strong>Neupré</strong> au bord de la route du
+    Condroz à côté du magasin "Trafic" et au dessus de chez "Tempo Doulou".
+    Il est donc très facile d'accès et bordé de nombreuses places de parking.
+
+<p>
+    Les <strong>objectifs</strong> principaux du "snoezelen" sont :
+
+<ul>
+    <li>
+        Fournir un lieu d'accueil adapté à une multitude de handicaps afin de
+        permettre aux familles en besoin de nous confier leur proche en dehors
+        du milieu familial = objectif de répit sur le court terme ;
+
+    <li>
+        Permettre à chaque bénéficiaire de trouver sa place au sein du lieu
+        d'accueil afin de passer des instants de détente et de découverte en
+        toute sécurité = objectif de répit sur le long terme ;
+
+<p>
+    Ce lieu d'accueil est adapté pour des personnes, de tous âges, atteintes
+    de tous types de handicaps ou de difficultés.
+
+<a .pull-right href=@{StaticR photos_jeux_2_jpg} style="margin: 10px">
+    <img .img-thumbnail alt="Enfant" src=@{StaticR photos_jeux_2_mini_jpg}>
+
+<ul>
+    <li>
+        Personne autiste ou atteinte d'autres troubles envahissants du
+        développement ;
+
+    <li>
+        Personne atteinte d'un handicap mental ;
+
+    <li>
+        Enfant atteint d'un handicap physique ou de handicaps associés ;
+
+    <li>
+        Adulte atteint d'un handicap physique modéré (nous ne sommes pas encore
+        équipés pour accueillir des adultes avec des handicaps physiques
+        importants, à voir au cas par cas) ou atteint de handicaps associés ;
+
+    <li>
+        Enfant "caractériel" ;
+
+    <li>
+        Enfant ou adolescent en détresse psychologique ;
+
+    <li>
+        Personne atteinte de démence et/ou de la maladie d'Alzheimer ;
+
+    <li>
+        Personne atteinte de problèmes de dépendances ;
+
+    <li>
+        Personne ayant besoin de moments de recentrassions sur soi, d'instant
+        ressourçant et/ou d'induction positive ;
+
+    <li>
+        Personne ayant besoin d'écoute et de détente dans un cadre adapté et en
+        individuel ;
+
+    <li>...
+
+<p>
+    <a href=@{AlbumR (Key (PersistInt64 4))} .btn .btn-success>
+        <span .glyphicon .glyphicon-camera>
+        Consulter l'album photo

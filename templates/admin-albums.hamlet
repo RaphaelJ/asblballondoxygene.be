@@ -1,0 +1,26 @@
+<h2>Nouvel album
+$maybe msg <- err
+    <p .bg-danger>
+        <strong>#{msg}
+
+<form method=post action=@{AdminAlbumsR} enctype=#{enctype}>
+    ^{widget}
+
+    <input .btn .btn-primary type=submit value=Ajouter>
+
+<h2>Liste des albums
+
+<table .table>
+    $forall (Entity albumId album) <- albums
+        <tr>
+            <td>
+                <a href=@{AdminAlbumR albumId}>
+                    #{albumName album}
+            <td>
+                <a .btn .btn-primary href=@{AdminAlbumR albumId}>
+                    <span .glyphicon .glyphicon-camera>
+                    Gérer les photos
+                <a .btn .btn-danger href=@{AdminAlbumRemoveR albumId}
+                   onclick="return confirm('Supprimer l`album et ses photos ?');">
+                    <span .glyphicon .glyphicon-remove>
+                    Supprimer l'album et ses photos

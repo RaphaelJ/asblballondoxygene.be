@@ -1,0 +1,8 @@
+Album
+    name                        Text
+    UniqueAlbumName             name
+
+Picture
+    album                       AlbumId
+    description                 Text Maybe
+

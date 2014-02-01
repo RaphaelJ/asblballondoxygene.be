@@ -1,0 +1,124 @@
+<h2>Stages multi-activités
+
+<p>
+    Ces stages, ont lieu "à la journée" ou "à la semaine" durant les vacances
+    scolaires et ce en fonction des demandes qui nous sont adressées.
+
+<p>
+    Des groupes différents sont mis en place pour les enfants, les adolescents
+    et les adultes.
+
+<p>
+    Un stage a lieu à partir du moment où 4 participants minimum en sollicitent
+    la mise en place. 
+
+<p>
+    Dans la mesure de nos possibilités, nous accueillons toutes les personnes ne
+    pouvant être prises en charge dans des stages de type "classique".
+    Nos groupes de bénéficiaires sont donc hétéroclites et varient entre 4 et 8
+    participants.
+
+<p>
+    Lors du dernier stage le groupe d'enfants était par exemple composé de :
+
+<ul>
+    <li>
+        1 petit garçon de 7 ans souffrant de troubles du comportement de type
+        autistique ;
+
+    <li>
+        1 petit garçon de 5 ans souffrant d'angoisses importantes et de troubles
+        autistiques ;
+
+    <li>
+        1 petite fille de 6 ans "infirme moteur cérébral" se déplaçant
+        essentiellement en chaise roulante et en cours d'apprentissage de la
+        "propreté" ;
+
+    <li>
+        La sœur jumelle de la petit fille ci-dessus ;
+
+    <li>
+        1 petit garçon de 6 ans 1/2 souffrant d'importants troubles du langage
+        et de difficultés d'intégration sociale ;
+
+    <li>
+        1 jeune fille de 8 ans souffrant de troubles du langage et de la
+        compréhension ;
+
+    <li>
+        1 jeune garçon de 11 ans souffrant de troubles autistiques et
+        et <abbr class="initialism" title="Enfant qui ne parle plus">mutique</abbr>.
+
+<p>
+    Ces groupes hétéroclites permettent de mettre en avant la complémentarité
+    des stagiaires et de se baser sur l'entraide et l'acceptation de chacun.
+
+<p>
+    Les activités sont pensées en fonction de l'âge des participants, de leurs
+    capacités, de leurs difficultés, de leurs possibilités et, évidemment, de la
+    météo. 
+
+<h3>Exemples d'activités
+
+<p>
+    Aquarium et musées de la ville de Liège, mini-golf, pleine de jeux,
+    promenade dans les bois, pique-nique dans les bois, découverte des oiseaux,
+    spectacle de marionnettes, piscine, bricolage, snoezelen, visite d'une ferme
+    (élevage d'animaux et culture de fruits et légumes), journée photo (photos
+    prises par les stagiaires puis visionnage), équitation adaptée (en été 40 %
+    d'équitation adaptée pour chaque stage).
+
+<p>
+    Une <strong>équipe de professionnels</strong> et de bénévoles est mise sur
+    pied de manière réfléchie et adaptée lors de chaque stage.
+
+<p>
+    Certains stagiaires nécessitent un encadrement "un pour un" et d'autre plutôt
+    du "un pour deux". Pour un groupe de 7 enfants, nous ne sommes donc jamais
+    moins de 4 accompagnateurs et pouvons parfois même être jusqu'à 6 en
+    fonction des besoins du groupe et de l'activité mise en place. 
+
+<p>
+    Les équipes de stage sont composées de :
+
+<ul>
+    <li>
+        <a href=#>Florence Wouters
+        : professionnelle de l'éducation responsable du stage, présente tout au
+        long du stage et conductrice lors des trajets en voiture ;
+
+    <li>
+        <a href=#>Christine Wouters
+        : administratrice et secrétaire de l'ASBL, présente en tant que bénévole
+        spécialisée dans le domaine équestre et également conductrice lors des
+        trajets en voiture ;
+
+    <li>
+        Des bénévoles spécialisés dans le monde équestre et/ou connaissant bien
+        les chevaux et les infrastructures du manège l'Eperon. 
+
+    <li>
+        De bénévoles habitués au contact avec des personnes atteintes de
+        handicaps ou de difficultés telles que celles citées ci-dessus.
+        Certains d'entre eux sont toujours étudiants, d'autres sont 
+        diplômés en logopédie, en éducation spécialisée, en psychologie ou
+        encore en tant qu'instituteur.
+
+<p>
+    Afin de veiller à une certaine stabilité dans l'équipe, Florence Wouters
+    est toujours présente et fait en sorte que les stagiaires ne soient pas
+    confrontés à l'arrivée de plusieurs nouveaux bénévoles au même moment.
+    Les enfants sont donc essentiellement encadrés par des aidants qui
+    reviennent régulièrement et avec lesquels ils peuvent créer des liens.
+
+<p .text-center>
+    <a href=@{AlbumR (Key (PersistInt64 2))} .btn .btn-success>
+        <span .glyphicon .glyphicon-camera>
+        Consulter l'album photo des stages
+    <a href=@{AlbumR (Key (PersistInt64 1))} .btn .btn-success>
+        <span .glyphicon .glyphicon-camera>
+        Consulter l'album photo dez l'équitation adaptée
+    <a href=@{AlbumR (Key (PersistInt64 6))} .btn .btn-success>
+        <span .glyphicon .glyphicon-camera>
+        Consulter l'album photo des trajets en voiture

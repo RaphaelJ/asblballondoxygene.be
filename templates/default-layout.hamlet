@@ -1,0 +1,158 @@
+$maybe msg <- mmsg
+    <div #message>#{msg}
+
+<div .container .main-container>
+    <nav .navbar role="navigation">
+        <div .navbar-header>
+            <button type=button .navbar-toggle data-toggle="collapse"
+                    data-target="#navbar-collapse">
+                <span .sr-only>Toggle navigation
+                <span .icon-bar>
+                <span .icon-bar>
+                <span .icon-bar>
+
+            <a .navbar-brand href=@{HomeR}>
+                <img alt=Logo src=@{StaticR img_logo_png}/><br />
+                Ballon d'Oxygène
+
+        <div .collapse .navbar-collapse .navbar-left #navbar-collapse>
+            <ul .nav .navbar-nav>
+                $case route
+                    $of HomeR
+                        <li .active>
+                            <a href=@{HomeR}>Accueil
+                    $of _
+                        <li>
+                            <a href=@{HomeR}>Accueil
+
+                <li .dropdown>
+                    <a href="#" .dropdown-toggle data-toggle=dropdown>
+                        Services <b class="caret"></b>
+
+                    <ul .dropdown-menu>
+                        $case route
+                            $of ServicesR
+                                <li .active>
+                                    <a href=@{ServicesR}>
+                                        Services proposés
+                                        <span .pull-right .glyphicon .glyphicon-pushpin>
+                            $of _
+                                <li>
+                                    <a href=@{ServicesR}>
+                                        Services proposés
+                                        <span .pull-right .glyphicon .glyphicon-pushpin>
+
+                        $case route
+                            $of EquitationAdaptR
+                                <li .active>
+                                    <a href=@{EquitationAdaptR}>
+                                        Équitation adaptée
+                            $of _
+                                <li>
+                                    <a href=@{EquitationAdaptR}>
+                                        Équitation adaptée
+
+                        $case route
+                            $of StagesMultiActsR
+                                <li .active>
+                                    <a href=@{StagesMultiActsR}>
+                                        Stages multi-activités
+                            $of _
+                                <li>
+                                    <a href=@{StagesMultiActsR}>
+                                        Stages multi-activités
+
+                        $case route
+                            $of SeancesLudiquesR
+                                <li .active>
+                                    <a href=@{SeancesLudiquesR}>
+                                        Séances ludiques et éducatives
+                            $of _
+                                <li>
+                                    <a href=@{SeancesLudiquesR}>
+                                        Séances ludiques et éducatives
+
+                        $case route
+                            $of SnoezelenR
+                                <li .active>
+                                    <a href=@{SnoezelenR}>
+                                        Espace snoezelen
+                            $of _
+                                <li>
+                                    <a href=@{SnoezelenR}>
+                                        Espace snoezelen
+
+                        $case route
+                            $of AccompagnementPersoR
+                                <li .active>
+                                    <a href=@{AccompagnementPersoR}>
+                                        Accompagnement en situation de vie
+                            $of _
+                                <li>
+                                    <a href=@{AccompagnementPersoR}>
+                                        Accompagnement en situation de vie
+
+                $case route
+                    $of EquipeR
+                        <li .active>
+                            <a href=@{EquipeR}>Équipe et bénévolat
+                    $of _
+                        <li>
+                            <a href=@{EquipeR}>Équipe et bénévolat
+
+                $case route
+                    $of FinancesR
+                        <li .active>
+                            <a href=@{FinancesR}>Situation financière
+                    $of _
+                        <li>
+                            <a href=@{FinancesR}>Situation financière
+
+                <li .dropdown>
+                    <a href="#" .dropdown-toggle data-toggle=dropdown>
+                        Photos <b class="caret"></b>
+
+                    <ul .dropdown-menu>
+                        $forall (Entity albumId album) <- albums
+                            $case route
+                                $of (AlbumR albumId')
+                                    $if albumId == albumId'
+                                        <li .active>
+                                            <a href=@{AlbumR albumId}>
+                                                #{albumName album}
+                                    $else
+                                        <li>
+                                            <a href=@{AlbumR albumId}>
+                                                #{albumName album}
+                                $of _
+                                    <li>
+                                        <a href=@{AlbumR albumId}>
+                                            #{albumName album}
+
+                $case route
+                    $of ContactsR
+                        <li .active>
+                            <a href=@{ContactsR}>Contacts
+                    $of _
+                        <li>
+                            <a href=@{ContactsR}>Contacts
+
+                $case route
+                    $of LiensR
+                        <li .active>
+                            <a href=@{LiensR}>Liens
+                    $of _
+                        <li>
+                            <a href=@{LiensR}>Liens
+    ^{widget}
+
+    <footer>
+        ASBL Ballon d'Oxygène •
+        Avenue des Chèvrefeuilles 95, 4121 Neupré •
+        <a href="mailto:asblballondoxygene@gmail.com">asblballondoxygene@gmail.com
+        •&nbsp;
+        <a href="http://www.facebook.com/AsblBallondOxygene">Notre page facebook
+        •&nbsp; Tel : 0477/04.78.46<br />
+        Un projet réalisé avec le soutien de la
+        <a href="http://www.kbs-frb.be/">Fondation Roi Baudouin
+        et de la <a href="http://www.loterie-nationale.be/">Loterie Nationale</a>.

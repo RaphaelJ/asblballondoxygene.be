@@ -1,0 +1,35 @@
+<a href=@{AdminAlbumsR}>
+    Retour aux albums
+
+<h2>Ajouter une photo
+
+$maybe msg <- err
+    <p .bg-danger>
+        <strong>#{msg}
+
+<form method=post action=@{AdminAlbumR albumId} enctype=#{enctype}>
+    ^{widget}
+
+    <input .btn .btn-primary type=submit value=Ajouter>
+
+<h2>Liste des photos de l'album « #{albumName album} »
+
+<div .container>
+    $forall (i, (Entity picId pic)) <- pics'
+        <div .col-md-3>
+            <div .thumbnail>
+                <a target="_BLANK" href=@{pictureRoute picId}>
+                    <img src=@{miniatureRoute picId} alt="Image de l'album" />
+
+                <div .caption>
+                    $maybe desc <- pictureDescription pic
+                        <p>
+                            #{desc}
+
+                    <a .btn .btn-danger href=@{AdminPictureRemoveR picId}
+                        onclick="return confirm('Supprimer la photo ?');">
+                        <span .glyphicon .glyphicon-remove>
+                        Supprimer la photo
+
+        $if i == 4
+            <div .clearfix>

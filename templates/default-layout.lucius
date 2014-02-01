@@ -1,0 +1,67 @@
+body {
+    background-image: url("../img/texture.png");
+
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+.box {
+    padding: 15px;
+}
+
+.main-container {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+
+    .navbar {
+        padding-bottom: 5px;
+        border-radius: 0;
+        border-bottom: 1px solid rgba(81, 96, 125, 0.3);
+
+        .navbar-brand {
+            height: auto;
+            padding: 0 0 15px 15px;
+            vertical-align: bottom;
+
+            font-size: 2.5em;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
+            font-family: 'Loved by the King', cursive;
+        }
+
+        .icon-bar {
+            border: 1px solid #428BCA;
+        }
+
+        .nav {
+            li a {
+                padding: 10px;
+                margin: 0 10px;
+
+                font-weight: 700;
+                text-shadow: 0 1px 0 rgba(255,255,255, 0.7);
+
+                transition-property: all;
+                transition-duration: 0.2s;
+            }
+
+            li a:hover, li a:active, li.active a {
+                background: none;
+                text-decoration: none;
+                color: #BA4F53;
+            }
+        }
+    }
+
+    footer {
+        padding: 5px 0;
+        border-top: 1px solid rgba(81, 96, 125, 0.3);
+
+        font-size: 0.9em;
+        color: rgba(0, 0, 0, 0.5);
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    }
+
+    footer a {
+        color: rgba(0, 0, 0, 0.7);
+    }
+}
