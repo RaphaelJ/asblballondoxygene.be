@@ -103,10 +103,10 @@ $maybe msg <- mmsg
                 $case route
                     $of FinancesR
                         <li .active>
-                            <a href=@{FinancesR}>Situation financière
+                            <a href=@{FinancesR}>Soutenir l'ASBL
                     $of _
                         <li>
-                            <a href=@{FinancesR}>Situation financière
+                            <a href=@{FinancesR}>Soutenir l'ASBL
 
                 <li .dropdown>
                     <a href="#" .dropdown-toggle data-toggle=dropdown>

@@ -1,4 +1,5 @@
-<h2>Equitation adaptée
+<div .page-header>
+    <h2>Equitation adaptée
 
 <p>
     Les cours d'<strong>équitation adaptée</strong> mis sur pied par notre ASBL
@@ -14,7 +15,7 @@
 
 <p>
     Notre monitrice d'équitation adaptée, Florence Wouters, est Éducatrice
-    Spécialisée et cavalière de longue date. Elle possèdeun Shetland et un petit
+    Spécialisée et cavalière de longue date. Elle possède un Shetland et un petit
     cheval qui sont utilisées par l'ASBL Ballon d'Oxygène. D'autres poneys et
     chevaux appartenant à l'ASBL l'Eperon sont mis à notre disposition afin
     d'adapter au mieux les montures aux besoins des cavaliers.
@@ -39,10 +40,10 @@
 <ul>
     <li>Le pansage (prendre soin de leur monture avant et après la séance) ;
     <li>La voltige ;
-    <li>La <abbr title="Equitation sans selle">montée à cru</abbr> ;
+    <li>La <abbr title="Equitation sans selle">monte à cru</abbr> ;
     <li>Les pony-games ;
     <li>Le guidage à la main ;
-    <li>Les balades à cheval dans les bois ;
+    <li>Les balades à cheval/poney dans les bois ;
     <li>L'approche du cheval/poney en liberté.
 
 <p>
@@ -53,11 +54,11 @@
     agréable de ces événements.
 
 <p .bg-warning .box>
-    Nous n'avons <strong>pas de montoir</strong> permettant de mettre à cheval
+    Nous n'avons pas de montoir permettant de mettre à cheval
     des personnes avec un important handicap physique. Cependant, avec une
     grande escabelle et grâce à nos gentils chevaux et poneys, nous parvenons
     sans danger à mettre à cheval des personnes fort peu toniques ou, par
-    exemple, une personne à qui il manque l'usage d'un bras.
+    exemple, une personne à laquelle il manque l'usage d'un bras.
 
 <p>
     <a href=@{AlbumR (Key (PersistInt64 1))} .btn .btn-success>

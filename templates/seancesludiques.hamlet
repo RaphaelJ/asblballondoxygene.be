@@ -1,4 +1,5 @@
-<h2>Scéances ludiques
+<div .page-header>
+    <h2>Scéances ludiques
 
 <p>
     Vous cherchez une
@@ -51,7 +52,7 @@
         l'école ;
 
     <li>
-        Aider chaque enfant en fonction de ses difficultés (le petit 
+        Aider chaque enfant en fonction de ses difficultés (le petit groupe
         permettant de mieux s'adapter à chacun) et mettre en avant ses capacités
         grâce à l'entraide. 
 
@@ -62,24 +63,24 @@
         <td>
             Enfant pour 1 heure dans un groupe de 3 à 4 enfants.
         <th>
-            12€
+            12€ par enfant
     <tr>
         <td>
             Enfant pour 1 heure dans un groupe de 5 enfants.
         <th>
-            10€
+            10€ par enfant
     <tr>
         <td>
             Enfant pour 30 minutes dans un groupe de 2 enfants, en fonction des
             groupes.
         <th>
-            12€
+            12€ par enfant
 
 <h3>Concrètement
 
 <p>
     Les séances sont composées de : jeux de rôles, jeux de société, jeux de mimes,
-    jeux d'improvisation, jeux rythmiques, moments de recentrassions et de calme
+    jeux d'improvisation, jeux rythmiques, moments de recentrassion et de calme
     (voir d'apprentissage du calme), ateliers créatifs ...
 
 <h3>Ces séances vous intéressent pour votre ou vos enfants ?

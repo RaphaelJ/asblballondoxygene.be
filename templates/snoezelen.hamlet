@@ -1,7 +1,8 @@
 <a .pull-right href=@{StaticR photos_jeux_1_jpg} style="margin: 10px">
     <img .img-thumbnail alt="Jeux" src=@{StaticR photos_jeux_1_mini_jpg}>
 
-<h2>Espace snoezelen
+<div .page-header>
+    <h2>Espace snoezelen
 
 <p>
     L'équipe de l'ASBL Ballon d'Oxygène a aménagé un nouveau lieu d'accueil

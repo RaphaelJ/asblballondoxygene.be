@@ -1,4 +1,5 @@
-<h2>ASBL Ballon d'Oxygène
+<div .page-header>
+    <h2>ASBL Ballon d'Oxygène
 
 <p>
     <em>
@@ -72,7 +73,7 @@
         <p>
             Comme en témoigne l'évolution de nos bénéficiaires actuels et leur fidélité,
             notre équipe parvient à s'adapter aux particularités de chacun et ce, aussi
-            bien lors de prise en charge de groupes ou qu'en individuel. Nous tentons de
+            bien lors de prise en charge de groupes qu'en individuel. Nous tentons de
             ne pas étiqueter ni catégoriser les participants mais au contraire de les
             <strong>faire se rencontrer
             quelque soit leur différence d'âge, de cultures, leurs facilités et leurs
@@ -123,6 +124,11 @@
         <p>
             Vous avez besoin de notre aide, appelez-nous, nous serons à votre écoute et
             tenterons de trouver une aide adaptée à vos besoins.
+        
+        <p>
+            <a href=@{ContactsR} .btn .btn-success>
+                <span .glyphicon .glyphicon-envelope>
+                Contactez-nous
 
 <p>
     <a href=@{StaticR files_brochure_pdf} .btn .btn-success>

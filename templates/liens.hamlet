@@ -1,4 +1,5 @@
-<h2>Liens
+<div .page-header>
+    <h2>Liens
 
 <div .container>
     <div .col-md-6>
@@ -9,7 +10,7 @@
                     <a target="_BLANK" href="http://www.eperon.be">
                         Eperon
                 <td>
-                    Le Royal Cercle Équestre l'Éperon
+                    ASBL Royal Cercle Equestre de Liège
             <tr>
                 <td>
                     <a target="_BLANK" href="http://www.aliss.be/node/157">
@@ -119,6 +120,6 @@
                     <a target="_BLANK" href="http://handicap.fgov.be/fr">
                         Service public fédéral
                 <td>
-                    Guide de la Personne Handicapée par le Gouvernement Fédéral.
+                    Service public fédéral sécurité sociale (direction générale personne handicapée).
 
 

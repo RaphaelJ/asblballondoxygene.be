@@ -1,4 +1,5 @@
-<h2>Contacts et status
+<div .page-header>
+    <h2>Contacts et status
 
 <div .container>
     <div .col-md-7>
@@ -12,8 +13,12 @@
             <a href="mailto:asblballondoxygene@gmail.com">
                 asblballondoxygene@gmail.com
             <br>
+            <br>
             N° d'entreprise : 0502.298.068.
-
+            <br>
+            Compte Belfius : BE66 0688 9644 6543
+            <br>
+            BIC : GKCCBEBB
         <a .btn .btn-primary href=@{StaticR files_statut_pdf}>
             <span .glyphicon .glyphicon-pencil>
             Statuts de l'ASBL
@@ -43,7 +48,7 @@
 
     <div .col-md-5>
         <h3>
-            Directrice et éducatrice de terrain
+            Coordinatrice et éducatrice de terrain
 
         <address>
             Florence Wouters<br>
@@ -80,12 +85,9 @@
 
         <dl .dl-horizontal>
             <dt>
-                Secrétaire<br>
-                Administratrice
+                Secrétaire
             <dd>
                 <address>
                     Christine Wouters<br>
                     <a href="mailto:c.bourdon.wouters@gmail.com">
                         c.bourdon.wouters@gmail.com
-
-                

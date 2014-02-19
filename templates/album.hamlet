@@ -1,6 +1,7 @@
-<h2>
-    #{albumName album}
-    <small>Photos
+<div .page-header>
+    <h2>
+        #{albumName album}<br />
+        <small>Photos
 
 <div .container>
     $forall (i, (Entity picId pic)) <- pics'
