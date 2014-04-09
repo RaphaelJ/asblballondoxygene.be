@@ -1,4 +1,64 @@
 <div .page-header>
+    <h2>
+        Comment soutenir l'ASBL Ballon d'Oxygène ?
+
+<blockquote>
+    <p>Se sentir Utile et Faire quelque chose pour Autrui sera votre Moteur
+    <footer>Epicure.
+
+<div .container>
+    <div .col-md-7>
+        <p>
+            L’association se compose de membres effectifs, de membres adhérents et de
+            membres d’honneur, personnes physiques ou morales.
+
+        <dl .dl-horizontal>
+            <dt>Membre effectif
+            <dd>
+                Toute personne physique ou morale qui souhaite soutenir les activités de
+                l’association peut demander à devenir membre effectif (voir 
+                <a href=href=@{StaticR files_statut_pdf}>statuts de l'ASBL
+                pour législation). Chaque membre effectif est invité à participer une
+                fois par an à l'Assemblée Générale Ordinaire et à verser la cotisation
+                annuelle de 50 euros à l'association.
+
+            <dt>Membre adhérent
+            <dd>
+                Toute personne physique ou morale qui souhaite soutenir les activités de
+                l’association peut demander à devenir membre adhérent et verser dès lors
+                10 euros à l'association en guise de soutien.
+
+    <div .col-md-5>
+        <table .table>
+            <thead>
+                <tr>
+                    <th>Donner de son temps
+                    <th>Donner des moyens
+            <tbody>
+                <tr>
+                    <td>
+                        <a href=@{EquipeR}>Devenir bénévole
+                    <td>
+                        Par un <a href="http://fr.wikipedia.org/wiki/Don">don</a>
+                        (<a href="@{ContactsR}">compte bancaire</a>)
+                <tr>
+                    <td>
+                        Etablir un
+                        <abbr title="Association active de différents intervenants qui, tout en maintenant leur autonomie, acceptent de mettre en commun leurs efforts en vue de réaliser un objectif.">
+                            partenariat
+                    <td>
+                        Par une
+                        <a href="http://www.notaire.be/donations-successions/les-donations/">
+                            donation
+                <tr>
+                    <td>
+                        Mettre à disposition un espace ou des biens privés
+                    <td>
+                        Par un
+                        <a href="http://fr.wikipedia.org/wiki/Legs">
+                            legs
+
+<div .page-header>
     <h2>Reconnaissance, soutien et sponsoring
 
 <p>
@@ -33,3 +93,18 @@
     S.A. ARCATECH, BM METAL, S.P.R.L. PASCAL BOLLEN ASSURANCES, S.P.R.L. CMG,
     S.P.R.L. Bureau CORNELIS, JM&C Consulting, ORA, REMUE MENINGES ASBL,
     S.P.R.L. TABONE, QUALIBEL.
+
+<p>
+    L'ASBL Ballon d'Oxygène est actuellement composée de membres effectifs et
+    de membres adhérents.
+
+<p>
+    Grâce aux différents soutiens qui nous sont apportés, nous venons
+    actuellement en aide à environ 25 bénéficiaires de tous âges, atteints de
+    tous types de difficultés, et sollicitant à un ou plusieurs types
+    d'accompagnement une à trois fois par semaine.
+
+<p>
+    Afin de pouvoir accompagner plus de familles, nous avons sans cesse besoin
+    de nouveaux soutiens financiers de la part de services clubs, d'entreprises
+    et de particuliers.
