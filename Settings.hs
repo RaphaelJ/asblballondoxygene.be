@@ -69,4 +69,3 @@ data Extra = Extra { extraPassword :: Text } deriving Show
 
 parseExtra :: DefaultEnv -> Object -> Parser Extra
 parseExtra _ o = Extra <$> o .: "password"
-
