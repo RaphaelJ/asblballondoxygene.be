@@ -61,6 +61,6 @@
     exemple, une personne à laquelle il manque l'usage d'un bras.
 
 <p>
-    <a href=@{AlbumR (Key (PersistInt64 1))} .btn .btn-success>
+    <a href=@{AlbumR $ fromBackendKey 1} .btn .btn-success>
         <span .glyphicon .glyphicon-camera>
         Consulter l'album photo

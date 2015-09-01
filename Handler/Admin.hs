@@ -5,12 +5,14 @@ module Handler.Admin where
 import Import
 
 import qualified Data.ByteString.Lazy as LBS
-import Data.Conduit (($$))
 import Data.Conduit.Binary (sinkLbs)
+import Data.List (cycle)
 import Data.Ratio
 import qualified Data.Text as T
 import System.Directory (removeFile)
+
 import qualified Vision.Image as I
+import qualified Vision.Image.Storage.DevIL as I
 import Vision.Primitive
 
 sessionKey :: Text
@@ -33,7 +35,7 @@ postAdminLoginR = do
 
     ((result, widget), enctype) <- runFormPost loginForm
 
-    validPass <- extraPassword <$> getExtra
+    validPass <- getsYesod (appPassword . appSettings)
     case result of
         FormSuccess pass | pass == validPass -> do
             setSession sessionKey ""
@@ -141,19 +143,19 @@ postAdminAlbumR albumId = do
         $(widgetFile "admin-album")
   where
     processImage (desc, file) = do
-        lbs  <- fileSource file $$ sinkLbs
-        eImg <- liftIO $ I.loadBS (LBS.toStrict lbs) Nothing
+        app <- getYesod
 
-        case eImg of
-            Right ioImg -> do
-                let rgb  = I.convert   ioImg :: I.RGBImage
-                    mini = resizeImage rgb
+        lbs  <- fileSource file $$ sinkLbs
+
+        case I.loadBS I.Autodetect (LBS.toStrict lbs) of
+            Right (rgb :: I.RGB) -> do
+                let mini = resizeImage rgb
 
                 runDB $ do
                     picId <- insert (Picture albumId desc)
                     _ <- liftIO $
-                        I.save (picturePath picId)   ioImg >>
-                        I.save (miniaturePath picId) mini
+                        I.save I.Autodetect (picturePath app picId)   rgb >>
+                        I.save I.Autodetect (miniaturePath app picId) mini
                     return ()
 
                 return Nothing
@@ -166,10 +168,10 @@ postAdminAlbumR albumId = do
             ratio = min (w % w') (h % h')
             (tmpW, tmpH) =
                 (truncate ((w % 1) / ratio), truncate ((h % 1) / ratio))
-            tmp = I.resize img I.Bilinear (Z :. tmpH :. tmpW) :: I.RGBDelayed
+            tmp = I.resize I.Bilinear (Z :. tmpH :. tmpW) img :: I.RGBDelayed
             -- Coupe l'image sur la partie centrale.
             rect = Rect ((tmpW - w') `div` 2) ((tmpH - h') `div` 2) w' h'
-        in I.crop tmp rect :: I.RGBImage
+        in I.crop rect tmp :: I.RGB
 
 getAdminAlbumRemoveR :: AlbumId -> Handler Html
 getAdminAlbumRemoveR albumId = do
@@ -195,10 +197,12 @@ getAdminPictureRemoveR picId = do
 
 pictureRemove :: PictureId -> YesodDB App ()
 pictureRemove picId = do
+    app <- getYesod
+
     delete picId
     liftIO $ do
-        removeFile (picturePath picId)
-        removeFile (miniaturePath picId)
+        removeFile (picturePath   app picId)
+        removeFile (miniaturePath app picId)
 
 pictureForm :: Form (Maybe Text, FileInfo)
 pictureForm html = flip renderDivs html $ (,)

@@ -90,6 +90,6 @@
     et nous répondrons très volontiers à toutes vos questions.
 
 <p>
-    <a href=@{AlbumR (Key (PersistInt64 3))} .btn .btn-success>
+    <a href=@{AlbumR $ fromBackendKey 3} .btn .btn-success>
         <span .glyphicon .glyphicon-camera>
         Consulter l'album photo

@@ -2,6 +2,8 @@ module Handler.Albums where
 
 import Import
 
+import Data.List (cycle)
+
 getAlbumR :: AlbumId -> Handler Html
 getAlbumR albumId = do
     (album, pics) <- runDB $ do

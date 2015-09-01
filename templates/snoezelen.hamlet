@@ -77,6 +77,6 @@
     <li>...
 
 <p>
-    <a href=@{AlbumR (Key (PersistInt64 4))} .btn .btn-success>
+    <a href=@{AlbumR $ fromBackendKey 4} .btn .btn-success>
         <span .glyphicon .glyphicon-camera>
         Consulter l'album photo

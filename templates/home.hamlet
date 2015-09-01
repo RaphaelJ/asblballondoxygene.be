@@ -124,7 +124,7 @@
         <p>
             Vous avez besoin de notre aide, appelez-nous, nous serons à votre écoute et
             tenterons de trouver une aide adaptée à vos besoins.
-        
+
         <p>
             <a href=@{ContactsR} .btn .btn-success>
                 <span .glyphicon .glyphicon-envelope>

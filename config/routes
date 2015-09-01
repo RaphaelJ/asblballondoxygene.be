@@ -1,4 +1,4 @@
-/static                                     StaticR Static getStatic
+/static                                     StaticR Static appStatic
 
 /robots.txt                                 RobotsR                 GET
 

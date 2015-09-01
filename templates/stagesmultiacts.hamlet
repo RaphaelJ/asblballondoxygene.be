@@ -11,7 +11,7 @@
 
 <p>
     Un stage a lieu à partir du moment où 4 participants minimum en sollicitent
-    la mise en place. 
+    la mise en place.
 
 <p>
     Dans la mesure de nos possibilités, nous accueillons toutes les personnes ne
@@ -114,12 +114,12 @@
     reviennent régulièrement et avec lesquels ils peuvent créer des liens.
 
 <p .text-center>
-    <a href=@{AlbumR (Key (PersistInt64 2))} .btn .btn-success>
+    <a href=@{AlbumR $ fromBackendKey 2} .btn .btn-success>
         <span .glyphicon .glyphicon-camera>
         Consulter l'album photo des stages
-    <a href=@{AlbumR (Key (PersistInt64 1))} .btn .btn-success>
+    <a href=@{AlbumR $ fromBackendKey 1} .btn .btn-success>
         <span .glyphicon .glyphicon-camera>
         Consulter l'album photo dez l'équitation adaptée
-    <a href=@{AlbumR (Key (PersistInt64 6))} .btn .btn-success>
+    <a href=@{AlbumR $ fromBackendKey 6} .btn .btn-success>
         <span .glyphicon .glyphicon-camera>
         Consulter l'album photo des trajets en voiture
