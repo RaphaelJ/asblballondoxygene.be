@@ -8,7 +8,7 @@
         <address>
             <strong>ASBL Ballon d'Oxygène
             <br>
-            Avenue des Chèvrefeuilles 95, 4121 Neupré<br>
+            Avenue des Chèvrefeuilles 95, 4121 Neupré (siège social)<br>
             0477/04.78.46<br>
             <a href="mailto:asblballondoxygene@gmail.com">
                 asblballondoxygene@gmail.com
@@ -27,14 +27,13 @@
 
         <div.container>
             <div .col-md-3>
-                <a target="_BLANK" href="https://www.google.be/maps/preview/place/Route%20du%20Condroz,%20211b%204120%20Neupr%C3%A9/">
-                    <img src="http://maps.google.com/maps/api/staticmap?size=240x240&maptype=roadmap&markers=size:mid|color:red|50.540631,5.4568&sensor=false&zoom=13"
+                <a target="_BLANK" href="https://www.google.be/maps/place/Rue+du+Chêne+154,+4100+Seraing/">
+                    <img src="http://maps.google.com/maps/api/staticmap?size=240x240&maptype=roadmap&markers=size:mid|color:red|50.6028027,5.5178891&sensor=false&zoom=13"
                          .img-thumbnail alt="Plan">
-
                 <address>
-                    <strong>Espace snoezelen et jeux
+                    <strong>Local (psychomotricité et snoezelen)
                     <br>
-                    Route du Condroz, 211b, 4120 Neupré
+                    Rue du Chêne, 154, 4100 Seraing
 
             <div .col-md-3>
                 <a target="_BLANK" href="https://www.google.be/maps/preview/place/Rue%20du%20Vieux%20Frêne,%2021,%204031%20Angleur/">
@@ -48,10 +47,10 @@
 
     <div .col-md-5>
         <h3>
-            Coordinatrice et éducatrice de terrain
+            Personne de Contact
 
         <address>
-            Florence Wouters<br>
+            Florence Wouters (coordonatrice et éducatrice de terrain)<br>
             0477/04.78.46<br>
             <a href="mailto:asblballondoxygene@gmail.com">
                 asblballondoxygene@gmail.com

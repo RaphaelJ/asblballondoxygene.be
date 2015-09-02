@@ -6,8 +6,11 @@
 /services                                   ServicesR               GET
 /services/equitationadapt                   EquitationAdaptR        GET
 /services/stagesmultiacts                   StagesMultiActsR        GET
-/services/seancesludiques                   SeancesLudiquesR        GET
 /services/snoezelen                         SnoezelenR              GET
+/services/snoezelenchezvous                 SnoezelenChezVousR      GET
+/services/psychomotricite                   PsychomotriciteR        GET
+/services/expressioncorporellemusicale      ExpressionCorporelleMusicaleR  GET
+/services/travaillerdansnoslocaux           TravaillerDansNosLocauxR    GET
 /services/accompagnementperso               AccompagnementPersoR    GET
 
 /equipe                                     EquipeR                 GET

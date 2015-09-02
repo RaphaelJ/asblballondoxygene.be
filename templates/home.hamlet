@@ -25,101 +25,75 @@
             prise en charge par d'autres structures de manière adaptée.
 
         <p>
-            Notre objectif premier est de
+            Notre service s’adresse aux personnes porteuses de handicap(s) et
+            aux personnes en souffrance physique psychique, morale ou
+            existentielle. Nous accueillons des enfants ou des adultes pour
+            lesquels il y a une envie, une demande d'être accompagné dans un
+            cadre de sport, loisir ou détente. Nous accompagnons aussi bien les
+            particuliers que les membres d'institutions, d'associations ou
+            d'écoles et travaillons en séance individuelle ainsi qu'en groupe.
+
+        <a .pull-left href=@{StaticR photos_enfant_1_jpg} style="margin: 10px">
+            <img .img-thumbnail alt="Enfant" src=@{StaticR photos_enfant_1_mini_jpg}>
+
+        <p>
+            Un de nos objectif premier est de
             <strong>travailler en collaboration avec les familles
-            en respectant autant que possible leur fonctionnement, leurs indications et
-            leurs objectifs.
+            afin autant que possible leur fonctionnement, leurs
+            indications et leurs objectifs.
 
         <p>
             Nous pensons effectivement que le répit est un aspect qui touche la famille
             de manière globale et qui peut être envisagé sous plusieurs aspects.
 
         <p>
-            Nous distinguons dès lors, au sein de notre méthodologie, le
-            <strong>répit de court terme et le répit de long terme.
-
-        <p>
-            Le
-            <strong>répit de court terme
-            correspond au laps de temps pendant lequel le participant est pris en charge
-            par une ou plusieurs personnes de notre équipe et où il n'est donc pas sous
-            la responsabilité de ses proches. Ces derniers peuvent alors profiter du
-            court laps de temps de répit adapté qui leur est apporté sans crainte car
-            une prise en charge professionnelle de chacun de nos bénéficiaires est
-            assurée.
-
-        <p>
-            Le
-            <strong>répit de long terme
-            se réfère à une notion moins quantitative. Il s'agit effectivement des
-            effets, à long terme, de nos actions sur le bénéficiaire et sa famille.
-
-        <p>
-            Afin de mieux saisir cette notion, vous devez comprendre que nous
-            travaillons sur base de deux objectifs principaux mis en place avec tous nos
-            participants :
-            <strong>un plus d'autonomie et un mieux être général.
-
-        <p>
-            Dès lors au travers de moyens très différenciés (voir rubrique <a href=@{ServicesR}>services</a>)
-            et de projets individuels mis en place pour chaque participant en fonction
-            de ses particularités, nous aidons la personne à se sentir mieux dans sa
-            peau et à se débrouiller au maximum par elle-même. Cette manière de procéder
-            a par conséquent
-            <strong>un effet positif, à long terme, sur la personne elle-même et à fortiori, sur toute sa famille.
-
-        <a .pull-left href=@{StaticR photos_enfant_1_jpg} style="margin: 10px">
-            <img .img-thumbnail alt="Enfant" src=@{StaticR photos_enfant_1_mini_jpg}>
-        <p>
-            Comme en témoigne l'évolution de nos bénéficiaires actuels et leur fidélité,
-            notre équipe parvient à s'adapter aux particularités de chacun et ce, aussi
-            bien lors de prise en charge de groupes qu'en individuel. Nous tentons de
-            ne pas étiqueter ni catégoriser les participants mais au contraire de les
-            <strong>faire se rencontrer
-            quelque soit leur différence d'âge, de cultures, leurs facilités et leurs
-            difficultés, et de les encourager à
-            <strong>apprendre à se connaître et à coexister dans le respect de chacun.
-
-        <p>
-            Durant cette première année d'existence, que ce soit, lors des stages, lors
-            des séances ludiques et éducatives ou lors des leçons d'équitation adaptée,
+            Durant ces premières années d'existence, que ce soit, lors des
+            stages, lors des séances ludiques, que ce soit, lors des stages, 
+            lors des séances ludiques et éducatives ou lors des leçons
+            d'équitation adaptée,
             nous avons sans cesse pu observer des
             <strong>rencontres riches et bénéfiques.
-            Celles-ci ont même parfois donné naissance à des belles amitiés entre nos
-            participants mais aussi à des rencontres enrichissantes entre des personnes
-            et des chevaux ou des personnes et la nature.
+            Celles-ci ont même parfois donné naissance à des belles amitiés
+            entre nos participants mais aussi à des rencontres enrichissantes
+            entre des personnes et des chevaux ou des personnes et la nature.
 
+        <p>
+            <a href=@{StaticR files_brochure_pdf} .btn .btn-success>
+                <span .glyphicon .glyphicon-file>
+                Consulter le dépliant de l'ASBL
 
     <div .col-md-4 .bg-success .box>
         <h3>Public cible et conditions d'accès
 
         <p>
-            En quelques mois seulement, notre ASBL compte 18 bénéficiaires réguliers,
-            c'est à dire participant à une ou plusieurs de nos activités 1 à 3 fois par
-            semaine.
+            Notre ASBL vient actuellement en aide de manière régulière (1 à 3 fois par semaine) à une trentaine de personne. Il s'agit d'une
+            <strong>petite association familiale et attentive à ses membres.
 
         <p>
-            Vous aussi, contactez-nous, afin de savoir ce que l'ASBL Ballon d'Oxygène
-            peut mettre en place afin d'améliorer votre quotidien et celui de vos
-            proches.
+            Vous aussi, <a href="@{ContactsR}">contactez-nous</a>, afin de
+            savoir ce que l'ASBL Ballon d'Oxygène peut mettre en place afin
+            d'améliorer votre quotidien et celui de vos proches.
 
         <p>
-            Nous partons du principe selon lequel chaque prise en charge est unique et
-            particulière, et nous souhaitons apporter un cadre sécurisant à chacun de
-            nos bénéficiaires. C'est pourquoi, avant toute prise en charge répit, nous
-            vous demandons de contacter notre éducatrice afin de fixer un rendez-vous de
-            prise de contact (ce rendez-vous n'engage à rien).
+            Nous partons du principe selon lequel
+            <strong>chaque prise en charge est unique et particulière,
+            et nous souhaitons apporter un cadre sécurisant à chacun de nos
+            bénéficiaires. C'est pourquoi, avant toute prise en charge répit,
+            nous vous demandons de contacter notre éducatrice afin de fixer un
+            <strong>rendez-vous
+            de prise de contact (ce rendez-vous n'engage à rien).
+            Elle pourra dès lors voir si nous sommes en mesure de vous venir en
+            aide ou vous réorientera vers un autre service.
 
         <p>
-            Un de nos objectifs principaux étant de nous adapter au maximum aux besoins
-            des bénéficiaires et ce de manière à venir en aide à des familles ne pouvant
-            faire appel à d'autres associations, nous désirons garder un champ d'action
-            particulièrement large.
-
-        <p>
-            Quelque soit l'âge ou les difficultés de la personne en besoin d'aide, nous
-            examinerons sa demande et veillerons, dans le mesure du possible, à nous
-            adapter à sa requête ainsi qu'à celle de sa famille.
+            Un de nos objectifs principaux étant de nous adapter au maximum aux
+            besoins des bénéficiaires et ce de manière à venir en aide à des
+            familles ne pouvant faire appel à d'autres associations, nous
+            désirons garder un champ d'action particulièrement large. Dès lors,
+            nous ne souhaitons pas  établir
+            <strong>de liste
+            reprenant les types de population que nous serions susceptibles d'accompagner ou non. Nous sommes donc 
+            <strong>ouverts à toutes demandes.
 
         <p>
             Vous avez besoin de notre aide, appelez-nous, nous serons à votre écoute et
@@ -129,8 +103,3 @@
             <a href=@{ContactsR} .btn .btn-success>
                 <span .glyphicon .glyphicon-envelope>
                 Contactez-nous
-
-<p>
-    <a href=@{StaticR files_brochure_pdf} .btn .btn-success>
-        <span .glyphicon .glyphicon-file>
-        Consulter le dépliant de l'ASBL

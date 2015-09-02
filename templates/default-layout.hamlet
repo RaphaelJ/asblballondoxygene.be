@@ -63,16 +63,6 @@ $maybe msg <- mmsg
                                         Stages multi-activités
 
                         $case route
-                            $of SeancesLudiquesR
-                                <li .active>
-                                    <a href=@{SeancesLudiquesR}>
-                                        Séances ludiques et éducatives
-                            $of _
-                                <li>
-                                    <a href=@{SeancesLudiquesR}>
-                                        Séances ludiques et éducatives
-
-                        $case route
                             $of SnoezelenR
                                 <li .active>
                                     <a href=@{SnoezelenR}>
@@ -81,6 +71,47 @@ $maybe msg <- mmsg
                                 <li>
                                     <a href=@{SnoezelenR}>
                                         Espace snoezelen
+
+                        $case route
+                            $of SnoezelenChezVousR
+                                <li .active>
+                                    <a href=@{SnoezelenChezVousR}>
+                                        Snoezelen chez vous
+                            $of _
+                                <li>
+                                    <a href=@{SnoezelenChezVousR}>
+                                        Snoezelen chez vous
+
+                        $case route
+                            $of PsychomotriciteR
+                                <li .active>
+                                    <a href=@{PsychomotriciteR}>
+                                        Psychomotricité
+                            $of _
+                                <li>
+                                    <a href=@{PsychomotriciteR}>
+                                        Psychomotricité
+
+                        $case route
+                            $of ExpressionCorporelleMusicaleR
+                                <li .active>
+                                    <a href=@{ExpressionCorporelleMusicaleR}>
+                                        Expression corporelle (danse)
+                            $of _
+                                <li>
+                                    <a href=@{ExpressionCorporelleMusicaleR}>
+                                        Expression corporelle (danse)
+                                        Psychomotricité
+
+                        $case route
+                            $of TravaillerDansNosLocauxR
+                                <li .active>
+                                    <a href=@{TravaillerDansNosLocauxR}>
+                                        Travailler dans nos locaux
+                            $of _
+                                <li>
+                                    <a href=@{TravaillerDansNosLocauxR}>
+                                        Travailler dans nos locaux
 
                         $case route
                             $of AccompagnementPersoR

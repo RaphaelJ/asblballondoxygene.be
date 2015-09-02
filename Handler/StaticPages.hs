@@ -27,17 +27,35 @@ getStagesMultiActsR = do
         setTitle "Stages multi-activités - ASBL Ballon d'Oxygène"
         $(widgetFile "stagesmultiacts")
 
-getSeancesLudiquesR :: Handler Html
-getSeancesLudiquesR = do
-    defaultLayout $ do
-        setTitle "Séances ludiques et éducatives - ASBL Ballon d'Oxygène"
-        $(widgetFile "seancesludiques")
-
 getSnoezelenR :: Handler Html
 getSnoezelenR = do
     defaultLayout $ do
         setTitle "Espace snoezelen - ASBL Ballon d'Oxygène"
         $(widgetFile "snoezelen")
+
+getSnoezelenChezVousR :: Handler Html
+getSnoezelenChezVousR = do
+    defaultLayout $ do
+        setTitle "Snozelen chez vous - ASBL Ballon d'Oxygène"
+        $(widgetFile "snoezelenchezvous")
+
+getPsychomotriciteR :: Handler Html
+getPsychomotriciteR = do
+    defaultLayout $ do
+        setTitle "Psychomotricite - ASBL Ballon d'Oxygène"
+        $(widgetFile "psychomotricite")
+
+getExpressionCorporelleMusicaleR :: Handler Html
+getExpressionCorporelleMusicaleR = do
+    defaultLayout $ do
+        setTitle "Expression corporelle et musicale - ASBL Ballon d'Oxygène"
+        $(widgetFile "expressioncorporellemusicale")
+
+getTravaillerDansNosLocauxR :: Handler Html
+getTravaillerDansNosLocauxR = do
+    defaultLayout $ do
+        setTitle "Travailler dans nos locaux - ASBL Ballon d'Oxygène"
+        $(widgetFile "travaillerdansnoslocaux")
 
 getAccompagnementPersoR :: Handler Html
 getAccompagnementPersoR = do

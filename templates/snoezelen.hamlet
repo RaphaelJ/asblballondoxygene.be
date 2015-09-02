@@ -4,77 +4,86 @@
 <div .page-header>
     <h2>Espace snoezelen
 
-<p>
-    L'équipe de l'ASBL Ballon d'Oxygène a aménagé un nouveau lieu d'accueil
-    comprenant un espace
-    <abbr title="Thérapie pour personnes atteinte d'autisme ou d'autres troubles du développement">
-        snoezelen.
-    Celui-ci est adapté afin de pouvoir accueillir des personnes atteintes de
-    tous types de difficultés dans un cadre sollicitant et sécurisé.
+<blockquote>
+    <p>
+        Snoezelen, c'est vivre à travers la sensorialité du corps avec des
+        personnes, aussi démunies soient-elles, une attitude interrelationnelle
+        favorisant la détente, le bien-être, la sécurisation au service de la
+        réalisation de « l'être » et non du faire.
+    <footer>Marc Thiry.
 
 <p>
-    Cet espace est situé à <strong>Neupré</strong> au bord de la route du
-    Condroz à côté du magasin "Trafic" et au dessus de chez "Tempo Doulou".
-    Il est donc très facile d'accès et bordé de nombreuses places de parking.
+    Snoezelen est un terme constitué à partir de deux mots néerlandais :
+    "snuffelen" = sentir et "doezelen" = somnoler.
 
 <p>
-    Les <strong>objectifs</strong> principaux du "snoezelen" sont :
-
-<ul>
-    <li>
-        Fournir un lieu d'accueil adapté à une multitude de handicaps afin de
-        permettre aux familles en besoin de nous confier leur proche en dehors
-        du milieu familial = objectif de répit sur le court terme ;
-
-    <li>
-        Permettre à chaque bénéficiaire de trouver sa place au sein du lieu
-        d'accueil afin de passer des instants de détente et de découverte en
-        toute sécurité = objectif de répit sur le long terme ;
+    La snoezelen est une
+    <strong>pratique respectueuse
+    du rythme et des besoins de chacun. La méthode vise donc à éveiller la
+    sensorialité de la personne stimulée grâce à une relation privilégiée,
+    <strong>sécurisante, réduisant les tensions
+    tout en motivant à l'action au service d'une réalisation de son être. Les
+    espaces snoezelen sont aménagées afin de permettre une mise en place plus
+    aisée et plus profonde de cette pratique.
 
 <p>
-    Ce lieu d'accueil est adapté pour des personnes, de tous âges, atteintes
-    de tous types de handicaps ou de difficultés.
+    Persuadée des effets bénéfiques de cette méthode et souhaitant permette à
+    toute personne dans le besoin de bénéficier d'un accompagnement spécialisé,
+    une de nos éducatrice s'est formée à cette méthode auprès de Marc Thiry et
+    de ses collaborateur et à
+    <strong>
+        créer un espace snoezelen au sein des locaux de l'ASBL.
+
+<p>
+    Grâce aux aides du SEP de l'ACIS et de différents Lion's et Rotary, cet
+    espace à pu être aménagé avec du matériel professionnel et être adapté au
+    mieux afin de pouvoir accueillir des personnes atteintes de tous types de
+    difficultés dans un cadre sollicitant et sécurisé.
+
+<p>
+    Situé à
+    <strong>Seraing
+    au coin de la Rue du Chêne et de rue Papillon ce local est facile d'accès
+    puisqu'il est généralement aisé de s'y parquer et que plusieurs arrêts de
+    bus l'entourent.
 
 <a .pull-right href=@{StaticR photos_jeux_2_jpg} style="margin: 10px">
     <img .img-thumbnail alt="Enfant" src=@{StaticR photos_jeux_2_mini_jpg}>
 
+<p>
+    Vous l'aurez surement compris, la snoezelen peut être bénéfique pour toute
+    personne souhaitant mieux respectez son rythme, ses besoins et ses limite
+    mais plus particulièrement, celle-ci peut être utilisée de manière à
+    permettre un accompagnement respectueusement sollicitant de personnes
+    souffrant d'un handicap ou autres difficultés. La snoezelen à donc déjà fait
+    ses preuves dans beaucoup de domaines dont l'accompagnement de :
+
 <ul>
     <li>
-        Personne autiste ou atteinte d'autres troubles envahissants du
+        Personnes autistes ou atteinte d'autres troubles envahissants du
         développement ;
-
+    <li>Personnes atteintes d'un handicap mental ;
+    <li>Personnes atteintes d'un handicap physique ou de handicaps associés ;
+    <li>Enfants souffrant de troubles du comportement ;
+    <li>Personnes en détresse psychologique ;
+    <li>Personnes atteintes de démence et/ou de la maladie d'Alzheimer ;
+    <li>Personnes atteintes de problèmes de dépendances ;
     <li>
-        Personne atteinte d'un handicap mental ;
-
-    <li>
-        Enfant atteint d'un handicap physique ou de handicaps associés ;
-
-    <li>
-        Adulte atteint d'un handicap physique modéré (nous ne sommes pas encore
-        équipés pour accueillir des adultes avec des handicaps physiques
-        importants, à voir au cas par cas) ou atteint de handicaps associés ;
-
-    <li>
-        Enfant "caractériel" ;
-
-    <li>
-        Enfant ou adolescent en détresse psychologique ;
-
-    <li>
-        Personne atteinte de démence et/ou de la maladie d'Alzheimer ;
-
-    <li>
-        Personne atteinte de problèmes de dépendances ;
-
-    <li>
-        Personne ayant besoin de moments de recentrassions sur soi, d'instant
+        Personnes ayant besoin de moments de recentrassions sur soi, d'instant
         ressourçant et/ou d'induction positive ;
-
     <li>
-        Personne ayant besoin d'écoute et de détente dans un cadre adapté et en
+        Personnes ayant besoin d'écoute et de détente dans un cadre adapté et en
         individuel ;
-
+    <li>Femmes enceintes ;
+    <li>Parents-enfants (travail sur le lien) ;
     <li>...
+
+<p>
+    Toute personne nécessitant un tel accompagnement peut donc bénéficier d'un
+    accompagnement au sein de nos locaux. Ceux-ci peuvent se faire soit en
+    individuel ou par 2, 3 ou 4 personnes. Les groupes scolaires et les centres
+    et institutions peuvent quant à eux venir par 5
+    <a href=@{ContactsR}>sur demande.
 
 <p>
     <a href=@{AlbumR $ fromBackendKey 4} .btn .btn-success>

@@ -2,12 +2,11 @@
     <h2>Services proposés par l'ASBL
 
 <p>
-    Concrètement, l'objectif premier de l'ASBL Ballon d'Oxygène est de s'adapter
-    au mieux
+    L'objectif premier de l'ASBL Ballon d'Oxygène est de s'adapter au mieux
     <strong>aux besoins des familles.
-    N'hésitez donc pas à nous appeler, nous
-    verrons alors ensemble ce que notre service peut faire pour vous en ce qui
-    concerne chaque type d'accompagnement mentionné ci-dessous :
+    N'hésitez donc pas à nous appeler, nous verrons alors ensemble ce que notre
+    service peut faire pour vous en fonction de chaque type d'accompagnement
+    mentionné ci-dessous :
 
 <ul>
     <li>
@@ -17,24 +16,22 @@
         <a href=@{StagesMultiActsR}>Stages multi-activités
         durant les vacances scolaires ;
 
-    <li>
-        <a href=@{SeancesLudiquesR}>Séances d'activités ludiques
-        créatives et éducatives adaptées par petits groupes ;
 
     <li>
         <a href=@{SnoezelenR}>Espace 
             <abbr title="Pratique de stimulation visant à établir une relation personnelle, dans un milieu bien déterminé, permettant de vivre une expérience sensorielle, subjective et constructive. Cette pratique vise à éveiller la sensorialité de la personne stimulée grâce à une relation privilégiée et sécurisante tout en réduisant les tensions et en motivant la personne à l'action.">
                 snoezelen
         ;
+    <li>
+        <a href=@{SnoezelenChezVousR}>Snoezelen chez vous
+        ;
+    <li>
+        <a href=@{PsychomotriciteR}>Psychomotricité
+        ;
 
     <li>
         <a href=@{AccompagnementPersoR}>Accompagnement personnalisé
         et de courte durée en situation de vie ;
-
-    <li>
-        Accompagnement durant vos déplacements à l'étranger ou lors de toute 
-        activité particulière au cours de laquelle la personne handicapée a
-        besoin de soutien (sport, séjour à l'hôpital, déplacements, ...).
 
 <p>
     Nous poposons aussi des prises en charge personnalisées. 

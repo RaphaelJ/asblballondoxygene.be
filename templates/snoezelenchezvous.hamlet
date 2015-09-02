@@ -1,0 +1,30 @@
+<div .page-header>
+    <h2>Snoezelen chez vous
+
+<p>
+    Tel que vous pourrez le lire plus en profondeur dans l'onglet
+    <a href=@{SnoezelenR}>espace snoezelen,
+    la méthode snoezelen peut être bénéfique pour tout un chacun afin d'apporter
+    un mieux être général et des sollicitations adaptées.
+
+<p>
+    Cependant, dans certains cas, il
+    <strong>n'est pas possible de se déplacer
+    afin de venir bénéficier d'un accompagnement au sein d'une pièce
+    spécialement adaptée. C'est pourquoi, 
+    <strong>nous proposons de venir faire des séances de snoezelen chez vous.
+    Nous nous déplaçons dès lors directement dans les institutions, centres,
+    écoles ou hôpitaux afin de faire les séances au sein du lieu de vie des
+    personnes.  Notre éducatrice se déplace avec une partie de son matériel et
+    utilise au mieux l'espace temps qui lui est donné afin de fournir un
+    accompagnement snoezelen adapté. En effet, aucune restriction n'existe,
+    celui-ci peut prendre des formes très variées en fonction des besoins de
+    chacun. 
+
+<p>
+    Dans certains cas bien particuliers, notre éducatrice peut également se
+    rendre au domicile d'une personne.
+
+<p>
+    Afin d'en savoir plus veuillez contacter
+    <a href=@{ContactsR}>Melle Florence Wouters.
