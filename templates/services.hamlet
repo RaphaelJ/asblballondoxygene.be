@@ -25,6 +25,11 @@
     <li>
         <a href=@{SnoezelenChezVousR}>Snoezelen chez vous
         ;
+
+    <li>
+        <a href=@{ExpressionCorporelleMusicaleR}>Expression corporelle (danse)
+        ;
+
     <li>
         <a href=@{PsychomotriciteR}>Psychomotricité
         ;
@@ -34,7 +39,7 @@
         et de courte durée en situation de vie ;
 
 <p>
-    Nous poposons aussi des prises en charge personnalisées. 
+    Nous proposons aussi des prises en charge personnalisées. 
     Exemples de prises en charge déjà mises sur pied au cas par cas :
 
 <ul>
@@ -44,5 +49,5 @@
         Accompagnement individuel d'un adulte, une fois par semaine, sur le
         thème <em>découverte de la nature</em> ;
     <li>
-        Accompagnement d'un adolescent afin qu'il s'insert, à sa façon, dans le
+        Accompagnement d'un adolescent afin qu'il s'insère, à sa façon, dans le
         monde du travail ...

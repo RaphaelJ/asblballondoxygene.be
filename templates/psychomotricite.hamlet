@@ -18,14 +18,19 @@
 <p>
     Ces séances sont accessibles à
     <strong>tout enfant
-    nécessitant des prises en charge individuelle ou par petit groupe que celui
-    possède ou non un handicap.
+    nécessitant des prises en charge individuelle ou par petit groupe, que
+    celui-ci possède ou non un handicap.
 
 <p>
-    Des séances peuvent également être mise en place pour des
+    Des séances peuvent également être mises en place pour des
     <strong>adultes
     nécessitant une aide sur le plan psychomoteur.
 
 <p>
-    Pour plus d'information,
+    Pour plus d'informations,
     <a href=@{ContactsR}>nous sommes à votre disposition.
+
+<p>
+    <a href=@{AlbumR $ fromBackendKey 10} .btn .btn-success>
+        <span .glyphicon .glyphicon-camera>
+        Local de psychomotricité et d'expression corporelle

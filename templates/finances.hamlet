@@ -72,7 +72,7 @@
     <strong>Ministre de l'Enseignement Obligatoire</strong> qui, malgré le fait
     que nous ne soyons pas directement impliqués dans la sphère scolaire, nous a
     octroyé une aide financière importante pour l'aménagement de notre espace
-    snoezelen. Notons cependant que celui-ci est entre autres accessible aux
+    snoezelen. Notons cependant que celui-ci est entre autre accessible aux
     écoles de notre région en recherche de nouvelles activités ou d'un lieu
     adapté pour des élèves particuliers.
 
@@ -116,3 +116,7 @@
     Afin de pouvoir accompagner plus de familles, nous avons sans cesse besoin
     de nouveaux soutiens financiers de la part de services clubs, d'entreprises
     et de particuliers.
+
+<p .bg-success .box>
+    Une attestation de déductibilité fiscale peut vous être délivrée
+    (<a href="@{ContactsR}">sur demande</a>) pour tout don de minimum 40 euros.

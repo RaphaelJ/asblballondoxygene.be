@@ -1,5 +1,5 @@
 <a .pull-right href=@{StaticR photos_jeux_1_jpg} style="margin: 10px">
-    <img .img-thumbnail alt="Jeux" src=@{StaticR photos_jeux_1_mini_jpg}>
+    <img .img-thumbnail alt="Jeux" src=@{StaticR photos_snozelen_1_mini_jpg}>
 
 <div .page-header>
     <h2>Espace snoezelen
@@ -30,7 +30,7 @@
     Persuadée des effets bénéfiques de cette méthode et souhaitant permette à
     toute personne dans le besoin de bénéficier d'un accompagnement spécialisé,
     une de nos éducatrice s'est formée à cette méthode auprès de Marc Thiry et
-    de ses collaborateur et à
+    de ses collaborateurs et à
     <strong>
         créer un espace snoezelen au sein des locaux de l'ASBL.
 
@@ -48,11 +48,11 @@
     bus l'entourent.
 
 <a .pull-right href=@{StaticR photos_jeux_2_jpg} style="margin: 10px">
-    <img .img-thumbnail alt="Enfant" src=@{StaticR photos_jeux_2_mini_jpg}>
+    <img .img-thumbnail alt="Enfant" src=@{StaticR photos_snozelen_2_mini_jpg}>
 
 <p>
     Vous l'aurez surement compris, la snoezelen peut être bénéfique pour toute
-    personne souhaitant mieux respectez son rythme, ses besoins et ses limite
+    personne souhaitant mieux respecter son rythme, ses besoins et ses limites
     mais plus particulièrement, celle-ci peut être utilisée de manière à
     permettre un accompagnement respectueusement sollicitant de personnes
     souffrant d'un handicap ou autres difficultés. La snoezelen à donc déjà fait
@@ -60,7 +60,7 @@
 
 <ul>
     <li>
-        Personnes autistes ou atteinte d'autres troubles envahissants du
+        Personnes autistes ou atteintes d'autres troubles envahissants du
         développement ;
     <li>Personnes atteintes d'un handicap mental ;
     <li>Personnes atteintes d'un handicap physique ou de handicaps associés ;
@@ -69,7 +69,7 @@
     <li>Personnes atteintes de démence et/ou de la maladie d'Alzheimer ;
     <li>Personnes atteintes de problèmes de dépendances ;
     <li>
-        Personnes ayant besoin de moments de recentrassions sur soi, d'instant
+        Personnes ayant besoin de moments de recentralisation sur soi, d'instant
         ressourçant et/ou d'induction positive ;
     <li>
         Personnes ayant besoin d'écoute et de détente dans un cadre adapté et en

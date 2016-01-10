@@ -27,13 +27,14 @@
 
         <div.container>
             <div .col-md-3>
-                <a target="_BLANK" href="https://www.google.be/maps/place/Rue+du+Chêne+154,+4100+Seraing/">
-                    <img src="http://maps.google.com/maps/api/staticmap?size=240x240&maptype=roadmap&markers=size:mid|color:red|50.6028027,5.5178891&sensor=false&zoom=13"
+                <a target="_BLANK" href="https://www.google.be/maps/place/Rue+du+Chêne+188,+4100+Seraing/">
+                    <img src="http://maps.google.com/maps/api/staticmap?size=240x240&maptype=roadmap&markers=size:mid|color:red|50.6022408,5.5171436&sensor=false&zoom=13"
                          .img-thumbnail alt="Plan">
                 <address>
                     <strong>Local (psychomotricité et snoezelen)
                     <br>
-                    Rue du Chêne, 154, 4100 Seraing
+                    Rue du Chêne, 188, 4100 Seraing (au coin de la rue du chêne
+                    et de la rue papillon)
 
             <div .col-md-3>
                 <a target="_BLANK" href="https://www.google.be/maps/preview/place/Rue%20du%20Vieux%20Frêne,%2021,%204031%20Angleur/">
